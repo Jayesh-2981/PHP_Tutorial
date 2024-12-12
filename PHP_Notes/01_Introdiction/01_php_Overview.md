@@ -1,7 +1,15 @@
-# PHP Overview
+<style>
+  body {
+    text-align: justify;
+  }
+</style>
+
+# <h1 style="text-align: center;"> PHP Overview </h1>
 
 <b>
-PHP is a server-side scripting language, which is used to manage dynamic web pages, databases and build websites with features like session tracking and e-commerce. On a day of 1995, Rasmus Lerdorf unleashed the first version of “Hypertext Preprocessor” also known as the PHP language. It is also integrated with several popular databases like MySQL, PostgreSQL, Microsoft SQL Server, Oracle etc.
+PHP is a server-side scripting language, which is used to manage dynamic web pages, databases and build websites with features like session tracking and e-commerce. 
+On a day of 1995, Rasmus Lerdorf unleashed the first version of “Hypertext Preprocessor” also known as the PHP language. 
+It is also integrated with several popular databases like MySQL, PostgreSQL, Microsoft SQL Server, Oracle etc.
 </b>
 
 ## Uses of PHP

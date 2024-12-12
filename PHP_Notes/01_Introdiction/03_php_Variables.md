@@ -1,4 +1,10 @@
-# Variables in PHP
+<style>
+  body {
+    text-align: justify;
+  }
+</style>
+
+# <h1 style="text-align: center;"> Variables in PHP </h1>
 
 <b>
 Variables are containers that can store information which can be manipulated or referenced later by the programmer within the code.
