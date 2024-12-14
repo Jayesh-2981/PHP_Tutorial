@@ -53,7 +53,6 @@ $friends = array("rohan", "shubham", "skillf", "Jayesh Jadhav");
 echo "<br>";
 echo var_dump($friends);    // array(4) { [0]=> string(5) "rohan" [1]=> string(7) "shubham" [2]=> string(6) "skillf" [3]=> string(13) "Jayesh Jadhav" }
 echo "<br>";
-echo "<br>";
 echo $friends[0];   // rohan
 echo "<br>";
 echo $friends[1];   // shubham
