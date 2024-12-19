@@ -22,62 +22,62 @@
     </ol>
 
     <?php
-    // String : Sequece of Characters
+    // String: Sequence of characters
     $name = "Jayesh";
     $friend = 'Aditya';
-    echo "$name's friend is $friend";   // Jayesh's friend is Aditya
+    echo "$name's friend is $friend";   // Output: Jayesh's friend is Aditya
     echo "<br>";
 
-    // Integer : Non decimal number
+    // Integer: Non-decimal number
     $income = 455;
     $debts = -655;
     echo "<br>";
-    echo $income;   // 455
+    echo $income;   // Output: 455
     echo "<br>";
-    echo $debts;    //-655
+    echo $debts;    // Output: -655
     echo "<br>";
 
-    // Float : Decimal point number
+    // Float: Decimal point number
     $income = 344.5;
     $debts = -45.5;
     echo "<br>";
-    echo $income;   // 344.5
+    echo $income;   // Output: 344.5
     echo "<br>";
-    echo $debts;    // -45.5
+    echo $debts;    // Output: -45.5
     echo "<br>";
 
-    // Boolean : Can be either true or false
+    // Boolean: Can be either true or false
     $x = true;
     $is_friend = false;
     echo "<br>";
-    echo var_dump($x);  //bool(true)
-
+    echo var_dump($x);  // Output: bool(true)
     echo "<br>";
-    echo var_dump($is_friend);  // bool(false)
+    echo var_dump($is_friend);  // Output: bool(false)
     echo "<br>";
 
-    // Object : Instaces of classes
-    // Employee is a class -----> Jayesh can be one object
+    // Object: Instances of classes
+    // Example: Employee is a class, and Jayesh can be one object of that class.
 
-    // Array : used to store multiple values in a single variable
+    // Array: Used to store multiple values in a single variable
     $friends = array("rohan", "shubham", "skillf", "Jayesh Jadhav");
     echo "<br>";
-    echo var_dump($friends);    // array(4) { [0]=> string(5) "rohan" [1]=> string(7) "shubham" [2]=> string(6) "skillf" [3]=> string(13) "Jayesh Jadhav" }
+    echo var_dump($friends);    // Output: array with 4 elements
     echo "<br>";
-    echo $friends[0];   // rohan
+    echo $friends[0];   // Output: rohan
     echo "<br>";
-    echo $friends[1];   // shubham
+    echo $friends[1];   // Output: shubham
     echo "<br>";
-    echo $friends[2];   // skillf
+    echo $friends[2];   // Output: skillf
     echo "<br>";
-    echo $friends[3];   // Jayesh Jadhav
+    echo $friends[3];   // Output: Jayesh Jadhav
     echo "<br>";
-    // echo $friends[4];  //  Warning: Undefined array key 4 in C:\xampp\htdocs\php\2_data_types.php on line 65
+    // Uncommenting the next line will cause a warning due to undefined index
+    // echo $friends[4];  // Warning: Undefined array key 4
 
-    // NULL
+    // NULL: Represents a variable with no value
     echo "<br>";
     $name = NULL;
-    echo var_dump($name);
+    echo var_dump($name); // Output: NULL
     ?>
 </body>
 
