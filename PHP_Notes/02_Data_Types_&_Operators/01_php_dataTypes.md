@@ -25,8 +25,9 @@ A string is a sequence of characters that holds letters and numbers. It can be a
 
 ```php
 <?php
-$x = "Hello world!";
-echo $x;
+$string = "Hello world!";
+echo "String: ";
+var_dump($string);
 ?>
 ```
 
@@ -36,8 +37,9 @@ An integer is a non-decimal number typically ranging between -2,147,483,648 and 
 
 ```php
 <?php
-$x = 55;
-var_dump($x);
+$integer = 55;
+echo "Integer: ";
+var_dump($integer);
 ?>
 ```
 
@@ -47,8 +49,9 @@ A float is a number with a decimal point. It can be an exponential number or a f
 
 ```php
 <?php
-$x = 52.55;
-var_dump($x);
+$float = 52.55;
+echo "Float: ";
+var_dump($float);
 ?>
 ```
 
@@ -58,8 +61,9 @@ A Boolean represents two values: True or False.
 
 ```php
 <?php
-$x = true;
-$y = false;
+$boolean = true;
+echo "Boolean: ";
+var_dump($boolean);
 ?>
 ```
 
@@ -69,8 +73,9 @@ Array is a collection of similar data elements stored in a single variable.
 
 ```php
 <?php
-$x =array("Rohan", "Lovish", "Harry");
-var_dump($x);
+$array = array("Rohan", "Lovish", "Harry");
+echo "\nArray: ";
+var_dump($array);
 ?>
 ```
 
@@ -80,6 +85,8 @@ Null is a special data type with only one value which is NULL. In PHP, if a vari
 
 ```php
 <?php
-$x =null;
+$null = null;
+echo "\nNull: ";
+var_dump($null);
 ?>
 ```
