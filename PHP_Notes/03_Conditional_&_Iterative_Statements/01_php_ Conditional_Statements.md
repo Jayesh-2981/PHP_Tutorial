@@ -7,7 +7,7 @@
   }
 </style>
 
-# <h1 style="text-align: center;"> PHP Conditional Statements </h1>
+ <h1 style="text-align: center;"> PHP Conditional Statements </h1>
 
 **Conditional Statements are used to perform actions based on different conditions. Sometimes when we write a program, we want to perform some different actions for different actions. We can solve this by using conditional statements.**
 
