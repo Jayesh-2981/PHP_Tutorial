@@ -19,3 +19,17 @@
 4. foreach loop
 
 ## 1. While Loop
+
+The while loop in PHP is used when we need to execute a block of code again and again based on a given condition. If the condition never becomes false, the while loop keeps getting executed. Such a loop is knwon as an infinite loop.
+
+**Example**
+
+```php
+<?php
+$x = 1;
+while($x <= 10) {
+  echo "The number is: $x <br>";
+  $x++;
+}
+?>
+```
