@@ -1,10 +1,10 @@
 <style>
-    body {
-        text-align:justify;
-    }
-    h1 {
-        text-align:center;
-    }
+  body {
+    text-align: justify;
+  }
+  th, td{
+    text-align: center;
+  }
 </style>
 
 # <h1 style="text-align: center;"> PHP Iterative Statements </h1>
