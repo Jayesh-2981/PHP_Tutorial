@@ -21,6 +21,8 @@
 
 3. It saves a lot of code writing because you don't need to write the same logic multiple times, you can write the logic once and reuse it.
 
+---
+
 **Built-in Functions:** PHP has thousands of built-in functions. For a complete reference and examples, you can go to this [function reference](https://www.php.net/manual/en/funcref.php).
 
 **User Defined Functions:** Apart from built-in functions, We can also create our own functions and call them easily.
