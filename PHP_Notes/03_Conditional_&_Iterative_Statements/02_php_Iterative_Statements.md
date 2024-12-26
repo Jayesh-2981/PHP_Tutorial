@@ -14,8 +14,8 @@
 **In PHP, we have the following loops:**
 
 1. while loop
-2. do-while loop
-3. for loop
+2. for loop
+3. do-while loop
 4. foreach loop
 
 ## 1. While Loop
