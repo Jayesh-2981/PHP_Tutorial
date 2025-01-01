@@ -4,30 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creating MySql database</title>
+    <title>Creating MySQL Database</title>
 </head>
 
 <body>
     <?php
-    echo "<h1><center>Creating MySql Database<br></center></h1>";
+
+    // Display a heading to indicate the purpose of the page
+    echo "<h1><center>Connecting PHP with MySQL<br></center></h1>";
 
     // Define database connection parameters
-    $servername = "localhost";
-    $username = "root";
-    $password = ""; // Make it empty otherwise connection will fail and we got an error
+    $servername = "localhost"; // Server name (usually 'localhost' for local development)
+    $username = "root";        // MySQL username (default is 'root' for local development)
+    $password = "";            // MySQL password (leave empty for default local setup)
 
-    // Create a connection
-    $conn = mysqli_connect($servername, $username, $password);
+    // Create a connection to the MySQL server
+    $conn = new mysqli($servername, $username, $password);
 
-    // Check connection
-    if (!$conn) {
-        die("Connection failed: " . mysqli_connect_error());
+    // Check if the connection was successful
+    if ($conn->connect_error) {
+        // If connection fails, display an error message and terminate the script
+        die("Connection failed: " . $conn->connect_error . "<br>");
     } else {
-        echo "Connected successfully";
+        // If connection is successful, display a success message
+        echo "Connected successfully" . "<br>";
     }
 
-    // Close the connection when you're done with it
-    mysqli_close($conn);
+    // SQL query to create a database named 'dbemp' if it doesn't already exist
+    $sql = "CREATE DATABASE IF NOT EXISTS dbemp";
+
+    // Execute the SQL query and check if it was successful
+    if ($conn->query($sql) === TRUE) {
+        // If the database is created successfully, display a success message
+        echo "Database created successfully <br>";
+    } else {
+        // If there's an error, display the error message
+        echo "Error creating database: " . $conn->error . "<br>";
+    }
+
+    // Close the database connection when done
+    $conn->close();
+    // Display a message indicating the connection was closed
+    echo "Connection closed successfully <br>";
     ?>
 
 </body>
