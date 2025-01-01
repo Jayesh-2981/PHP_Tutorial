@@ -11,7 +11,7 @@
     <?php
 
     // Display a heading to indicate the purpose of the page
-    echo "<h1><center>Connecting PHP with MySQL<br></center></h1>";
+    echo "<h1><center>Creating MySQL Database<br></center></h1>";
 
     // Define database connection parameters
     $servername = "localhost"; // Server name (usually 'localhost' for local development)
